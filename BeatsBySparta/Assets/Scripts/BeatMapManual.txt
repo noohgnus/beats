@@ -1,0 +1,35 @@
+Note Input Types
+
+0 - empty beat (rest)
+
+a - single note left hand
+b - single note center
+c - single note right hand
+
+d - long note begin, left hand
+e - long note sustain, left hand
+f - long note end, left hand
+
+g - long note begin, center
+h - long note sustain, center
+i - long note end, center
+
+j - long note begin, right hand
+k - long note sustain, right hand
+l - long note end, right hand
+
+Note Coordinates range from (-1,-1) to (1,1).
+
+SYNTAX
+
+Distinguish every beat with '/', concatenate simultaneous beat with '*'
+
+
+EXAMPLE
+
+#BPM=120
+#TITLE=unitaaa
+#ARTIST=unnny
+#TIMESIGNATURE=4/4
+0/a(-1,0)*b(0,0)*c(1,0)/d(-0.5,0)*j(0.5,0)/e(0,0)*k(0,0)/f(-0.5,0)*l(0.5,0)/0/0/0
+0/a(-1,0)*b(0,0)*c(1,0)/d(-0.5,0)*j(0.5,0)/e(0,0)*k(0,0)/f(-0.5,0)*l(0.5,0)/0/0/0

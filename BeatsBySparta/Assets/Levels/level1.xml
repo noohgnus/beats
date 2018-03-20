@@ -1,0 +1,10 @@
+<Song>
+	<piece> 1
+		<bpm> 118 </bpm>
+		<beats>1111 a0a0 b0bb</beats>
+		<beats>2222 oooo cccc</beats>
+		<beats>3333 oooo cccc</beats>
+		<beats>4444 oooo cccc</beats>
+		<beats>5555 oooo cccc</beats>
+	</piece>
+</Song>
